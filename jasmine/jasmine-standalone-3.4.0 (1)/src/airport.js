@@ -1,9 +1,12 @@
-function Plane() {
+function Airport() {
   var in_airport = false;
-  Plane.land = function() {
+
+  Airport.land = function () {
     in_airport = true;
- }
- Plane.landed = function() {
-   return in_airport;
- }
+  }
+
+  Airport.landed = function () {
+    return in_airport;
+  }
+
 }
